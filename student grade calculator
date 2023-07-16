@@ -1,0 +1,25 @@
+#python program to find grade and average of student mark
+
+def gradee(average):
+    if average >=80:
+        grade = 'A'
+        print(grade)
+    elif average>=70 and average<=80:
+         grade = 'B'
+         print(grade)
+    elif average>=60 and average<=70:
+         grade = 'C'
+         print(grade)
+    elif average>=50 and average <=60:
+         grade = 'D'
+         print(grade)
+    else:
+        print("u failed!") 
+    return grade
+
+marks=[55,64,75,80,65]
+average = find_aver(marks)
+print("average mark is " ,average)
+
+grade=gradee(average)
+print("ur grade is ", grade)
