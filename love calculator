@@ -1,0 +1,27 @@
+#love calculator
+name1=input("enter your name:")
+name2=input("enter our hubby name: ")
+c_string= name1+ name2
+low_c= c_string.lower()
+
+t= low_c.count("t")
+r= low_c.count("r")
+u= low_c.count("u")
+e= low_c.count("e")
+
+true= t+r+u+e
+
+l= low_c.count("l")
+o= low_c.count("o")
+v= low_c.count("v")
+e= low_c.count("e")
+
+love= l+o+v+e
+
+l_score= int(str(true)+ str(love))
+if l_score<10 or l_score>90:
+    print(f"ur love score is{l_score},u go together as coke and mentos!!!!")
+elif l_score>40 and l_score<50:
+    print(f"ur love score is {l_score} u are alrigth together.")
+else:
+    print(f"ur love score is{l_score} u guys are perfect for each other i.e true love")
