@@ -1,0 +1,14 @@
+#BMI index
+height= float(input("enter ur height:"))
+weight= int(input("enter ur weight in kg:"))
+BMI=round(weight/height**2)
+if  BMI<18.5:
+ print(f"ur bmi is {BMI}, and u are under weight")
+elif BMI<25:
+    print(f"ur bmi is {BMI}, ur weight is normal")
+elif BMI<30:
+    print (f"ur bmi is {BMI} are over weigthed!  ")
+elif BMI<35:
+    print("u are obese!")
+elif BMI>35:
+    print("ur BMi is {BMI},clinically obese!!")
