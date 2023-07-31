@@ -1,0 +1,8 @@
+import random
+v= input("give me ur name separated by commas!")
+names=v.split(",")
+items = len(names)
+print(items)
+random_choice=random.randint(0,items-1)
+p=names[random_choice]
+print("the person who will pay is 🙄🙄🙌🏻👀 "+p)
